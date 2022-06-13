@@ -5,7 +5,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selenide.$;
 
-
 public class CitilinkTest extends BaseTest {
 
     @Test
