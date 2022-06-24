@@ -19,7 +19,7 @@ public class BaseTest {
         CredsOwner credsOwner = ConfigFactory.create(CredsOwner.class);
 
 
-//        System.setProperty("RemoteUrl", "selenoid.autotests.cloud/wd/hub");
+        System.setProperty("RemoteUrl", "selenoid.autotests.cloud/wd/hub");
         String remoteUrl = System.getProperty("RemoteUrl");
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
